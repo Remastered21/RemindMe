@@ -6,6 +6,7 @@ const helmet = require('helmet');
 
 // Routes (not yet implemented)
 // const userRouter = require('./Users/userController');
+// const scheduleRouter = require('./Schedule/scheduleController');
 
 const server = express();
 const corsOption = {
