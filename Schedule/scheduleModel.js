@@ -27,7 +27,7 @@ const Schedule = new mongoose.Schema({
 	},
 	reminder: {
 		reminder_Id: ObjectId, // reserach a bit more on this.
-		type: String,
+		type: Array,
 		default: null
 	},
 	checkList: {

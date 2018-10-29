@@ -8,7 +8,6 @@ const { authenticate } = require('../middleware');
 // debug: get all the users
 router.get('/', authenticate, (req, res) => {
 	let query = User.find();
-	1;
 	if (req.decoded) {
 		query
 			.then((users) => {
