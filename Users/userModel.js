@@ -12,7 +12,11 @@ const User = new mongoose.Schema({
 	password: {
 		type: String,
 		required: true
-  },
+	},
+	subscription: {
+		type: Boolean,
+		default: true
+	}
 });
 
 // pre-hook for the document -- before saving it
